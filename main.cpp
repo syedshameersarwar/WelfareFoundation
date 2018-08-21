@@ -79,9 +79,9 @@ class Donation{
     public:
         Donation();
         void add_donation(void);
-        get_donor_monthly(void);
-        get_donor_yearly(void);
-        get_donor_total(void);
+        void get_donor_monthly(void);
+        void get_donor_yearly(void);
+        void get_donor_total(void);
         void delete_donation_monthly(void);
         void delete_donation_yearly(void);
         void modify_donation(void);
